@@ -1,0 +1,12 @@
+function mostrarAviso() {
+  alert("¡Descuentos especiales en vitaminas durante todo el mes!");
+}
+
+function agregarCarrito(producto) {
+  alert(`${producto} ha sido agregado al carrito.`);
+}
+
+function enviarFormulario(event) {
+  event.preventDefault();
+  alert("Gracias por contactarnos. Te responderemos pronto.");
+}
